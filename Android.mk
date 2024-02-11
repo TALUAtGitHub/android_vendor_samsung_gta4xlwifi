@@ -6,4 +6,12 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),gta4xlwifi)
 
+$(call add-radio-file-sha1-checked,radio/cm.bin_SM-P610,f1fe2542e2ef98342228e396751babca20dc7404)
+$(call add-radio-file-sha1-checked,radio/keystorage.bin_SM-P610,959f35fda2db62371bd23e5eb693ea72fb3f351f)
+$(call add-radio-file-sha1-checked,radio/models,0a5c3b2cef8f0c09b09f80363601f16491824a89)
+$(call add-radio-file-sha1-checked,radio/sboot.bin_SM-P610,da1c2208979489e3541332d9962f613e7470fc6b)
+$(call add-radio-file-sha1-checked,radio/uh.bin_SM-P610,821875f1f76c1d236689cf679b693d3f3c87fd80)
+$(call add-radio-file-sha1-checked,radio/up_param.bin_SM-P610,42bd804b453e7309312575f3b035f5b9d6f50f5a)
+$(call add-radio-file-sha1-checked,radio/version_SM-P610,b8adee974f3573d4112566860ae2dc2e6aeb0b5f)
+
 endif
